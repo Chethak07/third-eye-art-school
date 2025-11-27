@@ -448,17 +448,9 @@ body{
 }
 
 
-/* FIX CONTACT MOBILE LAYOUT */
-.contact-container {
-    display: flex;
-    flex-wrap: wrap;      /* ★ This allows cards to move to next line */
-    gap: 20px;
-    justify-content: center;
-}
-
 .contact-card {
-    width: 100%;          /* ★ This makes each card full-width on mobile */
-    max-width: 350px;     /* ★ Looks clean on bigger screens too */
+    width: 100%;
+    max-width: 100%;      /* FULL width on mobile */
     background: white;
     padding: 20px;
     border-radius: 12px;
@@ -466,10 +458,5 @@ body{
     text-align: center;
 }
 
-/* FORCE EMAIL + TEXT TO WRAP */
-.contact-card p {
-    word-break: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-}
+
 

@@ -511,6 +511,13 @@ body{
     white-space: normal;
     display: block;
 }
+.email-line {
+    white-space: nowrap;       /* Prevents breaking into next line */
+    overflow-x: auto;          /* Adds scroll only if needed */
+    display: block;
+    font-size: 18px;
+}
+
 
 
 

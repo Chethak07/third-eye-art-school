@@ -457,6 +457,12 @@ body{
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     text-align: center;
 }
+.contact-card p {
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
+
 
 
 

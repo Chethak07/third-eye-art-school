@@ -504,6 +504,15 @@ body{
         font-size: 16px !important;
     }
 }
+.email-text {
+    font-size: 18px;
+    margin-top: 10px;
+    word-break: break-all;
+    white-space: normal;
+    display: block;
+}
+
+
 
 
 

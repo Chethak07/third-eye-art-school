@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery – Third Eye Art School</title>
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo-box">
+                <img src="images/img3.jpg">
+                <span class="logo-text">Third Eye Art School</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- GALLERY SECTION -->
+    <h1 class="title">Our Art Gallery</h1>
+
+    <div class="gallery-container">
+        <img src="images/img_1.jpg" onclick="openPopup(this.src)">
+        <img src="images/img2.jpg" onclick="openPopup(this.src)">
+        <img src="images/img3.jpg" onclick="openPopup(this.src)">
+        <img src="images/img4.jpg" onclick="openPopup(this.src)">
+        <img src="images/img_1.jpg" onclick="openPopup(this.src)">
+        <img src="images/img2.jpg" onclick="openPopup(this.src)">
+        <img src="images/img3.jpg" onclick="openPopup(this.src)">
+        <img src="images/img4.jpg" onclick="openPopup(this.src)">
+    </div>
+
+
+    <!-- FULL SCREEN POPUP -->
+    <div id="popup" class="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <img id="popupImg" class="popup-img">
+    </div>
+
+
+    <!-- JS FILE -->
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -419,3 +419,30 @@ body{
     }
 }
 
+
+.contact-info {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.contact-info p,
+.contact-info a {
+    display: block;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+@media (max-width: 600px) {
+    .contact-info {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
